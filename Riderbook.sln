@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riderbook", "Riderbook\Riderbook.csproj", "{63552B39-C2BC-4B73-8E5F-4818580E8B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riderbook.Tests", "Riderbook.Tests\Riderbook.Tests.csproj", "{7EE3F7E4-BB09-41B5-A890-1E783E7F1110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63552B39-C2BC-4B73-8E5F-4818580E8B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63552B39-C2BC-4B73-8E5F-4818580E8B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63552B39-C2BC-4B73-8E5F-4818580E8B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63552B39-C2BC-4B73-8E5F-4818580E8B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE3F7E4-BB09-41B5-A890-1E783E7F1110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE3F7E4-BB09-41B5-A890-1E783E7F1110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE3F7E4-BB09-41B5-A890-1E783E7F1110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE3F7E4-BB09-41B5-A890-1E783E7F1110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

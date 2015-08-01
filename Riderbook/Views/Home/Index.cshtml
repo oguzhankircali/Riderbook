@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body class="fixed-header ">
+
+    <nav class="page-sidebar" data-pages="sidebar">
+
+        @Html.Partial("_SidebarMenu")
+    </nav>
+    <div class="page-container">
+        @Html.Partial("_Header")
+        <div class="page-content-wrapper">
+            <div class="content">
+            </div>
+            @Html.Partial("_Footer")
+        </div>
+    </div>
+    @Html.Partial("_QuickView")
+    @Html.Partial("_Search")
+    @Html.Partial("_Scripts")
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        RB.ShowMessage(1, 'başlıksız mesaj');
+        RB.ShowMessage(1, 'mesaj', 'başlık');
+
+        RB.ShowMessage(0, 'başlıksız mesaj');
+        RB.ShowMessage(0, 'mesaj', 'başlık');
+
+        RB.ShowMessage(-1, 'başlıksız mesaj');
+        RB.ShowMessage(-1, 'mesaj', 'başlık');
+    });
+    </script>
+</body>
+
+

@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAnonymous.cshtml";
+}
+
+<p class="p-t-35">Sign up to create an account.</p>
+<!-- START Login Form -->
+<form id="form-login" class="p-t-15" role="form" action="index.html">
+    <!-- START Form Control-->
+    <div class="form-group form-group-default">
+        <label>First name</label>
+        <div class="controls">
+            <input type="text" name="username" placeholder="Name" class="form-control" required>
+        </div>
+    </div>
+    <div class="form-group form-group-default">
+        <label>Last name</label>
+        <div class="controls">
+            <input type="password" class="form-control" name="password" placeholder="Last name" required>
+        </div>
+    </div>
+
+    <div class="form-group form-group-default">
+        <label>E-Mail</label>
+        <div class="controls">
+            <input type="text" name="username" placeholder="E-Mail" class="form-control" required>
+        </div>
+    </div>
+    <div class="form-group form-group-default">
+        <label>Password</label>
+        <div class="controls">
+            <input type="password" class="form-control" name="password" placeholder="Credentials" required>
+        </div>
+    </div>
+    <div class="form-group form-group-default input-group">
+        <label>Birthdate</label>
+        <input type="email" class="form-control" placeholder="Pick your birthday" id="datepicker-component2">
+        <span class="input-group-addon">
+            <i class="fa fa-calendar"></i>
+        </span>
+    </div>
+
+
+    <!-- START Form Control-->
+    <div class="row">
+        <div class="col-md-6 no-padding">
+            @*<div class="checkbox ">
+                    <input type="checkbox" value="1" id="checkbox1">
+                    <label for="checkbox1">Keep Me Signed in</label>
+                </div>*@
+        </div>
+        <div class="col-md-6 text-right">
+            <a href="#" class="text-info small">Help? Contact Support</a>
+        </div>
+    </div>
+    <!-- END Form Control-->
+    <button class="btn btn-primary btn-cons m-t-10" type="submit">Sign up</button>
+</form>
+<!--END Login Form-->
